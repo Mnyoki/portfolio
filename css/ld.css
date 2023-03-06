@@ -1,0 +1,63 @@
+@media (min-width: 50em) {
+
+  .main-menu-ss {
+    display: none
+  }
+
+  .menu-dropdown {
+    display: block;
+    position: sticky;
+  }
+
+  .main-menu-ll {
+    display: flex;
+    flex-direction: row;
+    background-color: #0a2e35;
+    margin-bottom: 0.5em;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .lead {
+    padding: 0.5em;
+  }
+
+  .ll-about {
+    margin-left: auto;
+  }
+
+  .button-home {
+    display: block;
+  }
+
+  .about .image {
+    width: 40vw;
+    height: auto;
+
+  }
+
+  .about .content {
+    width: 40vw;
+    margin-left: 2em;
+    flex-grow: 1;
+  }
+
+  .about-extra-content {
+    width: 70vw;
+  }
+
+  .lead {
+    margin-top: 0;
+  }
+
+  /*projects*/
+
+  .contact-card {
+    width: 40vw;
+  }
+
+  .response {
+    font-size: 0.7em;
+  }
+}
