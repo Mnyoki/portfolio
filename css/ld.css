@@ -1,23 +1,31 @@
 @media (min-width: 50em) {
 
-  .main-menu-ss {
-    display: none
-  }
+#main-menu
+{
+  display: none !important;
+}
 
-  .menu-dropdown {
-    display: block;
-    position: sticky;
-  }
+.menu-larg
+{
+  display: block !important;
+}
 
-  .main-menu-ll {
-    display: flex;
-    flex-direction: row;
-    background-color: #0a2e35;
-    margin-bottom: 0.5em;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-  }
+.menu-larg-d
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #0a2e35;
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+.ll-about
+{
+  margin-left: auto;
+}
 
   .lead {
     padding: 0.5em;
@@ -25,10 +33,6 @@
 
   .ll-about {
     margin-left: auto;
-  }
-
-  .button-home {
-    display: block;
   }
 
   .about .image {

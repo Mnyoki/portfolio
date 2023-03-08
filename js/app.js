@@ -1,16 +1,8 @@
-(function () {
-  var button = document.getElementById('toggle-menu');
-  button.addEventListener('click', function (event) {
-      event.preventDefault();
-      var menu = document.getElementById('main-menu');
-      menu.classList.toggle('is-open');
-    })
-})();
-
-/*function toggleMenu()
+$(document).ready(function () 
 {
-  event.preventDefault();
-  var menu = document.getElementById('main-menu');
-  menu.classList.toggle('is-open');
-  console.log('clicked');
-}*/
+
+    $("#toggle-menu").click(function (e) {
+      e.preventDefault();
+      $("#main-menu-dropdown").toggle();
+    });
+})

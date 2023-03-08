@@ -30,62 +30,46 @@ header {
   z-index: 89;
 }
 
-.main-menu-ss {
+.header
+{
   position: static;
+}
+
+.menu
+{
+  width: 100%;
+}
+
+.main-menu-ss
+{
   display: flex;
   flex-direction: row;
   align-items: center;
-  align-content: space-between;
-  background-color: #0a2e35;
-  padding: 1em 0;
-}
-
-.button-t {
-  position: absolute;
-  right: 0;
-  z-index: 110;
-}
-
-.menu-toggle {
-  height: 3.5em;
-  width: 3.5em;
-}
-
-
-
-
-
-
-
-/*Humberger Menu*/
-
-.menu-dropdown {
-  display: none;
-}
-
-.menu.is-open .menu-dropdown {
-  display: block;
-  position: absolute;
-  right: 0;
-  left: 0;
-  background-color: #0b4165;
-}
-
-.menu.is-open .menu-dropdown .main-menu-ll .ll-button 
-{
-  margin-bottom: 0.7em;
-}
-
-.menu.is-open .menu-dropdown .main-menu-ll .ll-button .button {
-  color: #fff;
+  align-content: center;
+  justify-content: space-between;
   padding: 1em;
-  font-size: 1.2em;
-  margin-top: 1.5em;
+  background-color: #0a2e35;
 }
 
-.menu.is-open .menu-dropdown .main-menu-ll .ll-button .button:hover {
-  background-color: transparent;
-  text-decoration: underline;
+.menu-dropdown
+{
+  display: none ;
+}
+
+.main-menu-ll
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #0a3156;
+}
+
+.menu-larg
+{
+  display: none !important;
 }
 
 .button {
@@ -105,10 +89,6 @@ header {
   border: none;
   color: white;
   font-size: 1.5rem;
-}
-
-.button-home {
-  display: none;
 }
 
 footer {
@@ -227,7 +207,7 @@ h2 {
 .about .content h3 {
   font-size: 3rem;
   font-weight: 900;
-  text-decoration: underline 1px solid orange;
+  text-decoration: underline 1px solid rgb(173, 255, 47);
   letter-spacing: 0.05em;
   line-height: 0.9em;
   margin-top: 0;
@@ -270,7 +250,7 @@ h2 {
 
 .media-body {
   margin-top: 0;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(173, 255, 47, 0.8);
   display: flex;
   flex-direction: column;
 }
