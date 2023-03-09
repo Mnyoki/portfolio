@@ -377,6 +377,13 @@ h2 {
 
 /*projects source*/
 
+.projects-home h3
+{
+  padding-left: 0.5em;
+  margin-top: 0;
+  color: orange;
+}
+
 .projects-home-link {
   display: flex;
   flex-direction: row;
