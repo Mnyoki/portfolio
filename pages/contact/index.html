@@ -80,22 +80,22 @@
             <h2>Contact Form</h2>
             <div class="contact-form">
 
-              <form name="contact" netlify>
+              <form name="contact" method="POST" data-netlify="true">
 
                 <div class="form-row">
 
                   <div class="form-input">
-                    <input type="text" id="fname" placeholder="Full name" required class="text-field">
+                    <input type="text" id="fname" name="Full Name" placeholder="Full name" required class="text-field">
                   </div>
 
                   <div class="form-input">
-                    <input type="email" id="email" placeholder="Email" required class="text-field">
+                    <input type="email" id="email" name="Email" placeholder="Email" required class="text-field">
                   </div>
 
                 </div>
 
                 <div class="form-input-txt">
-                  <textarea name="" id="text-area" class="text-area text-field" required
+                  <textarea name="" id="text-area" name="Text" class="text-area text-field" required
                     placeholder="Enter your message"></textarea>
                 </div>
 
